@@ -1,0 +1,39 @@
+s = """
+100 open
+100 science
+10 new
+10 people
+20 everyone
+50 accessible
+5 forward
+3 something
+30 access
+20 collaboration
+15 open-source
+10 environment
+10 world
+10 discovery
+2 find
+2 take
+5 value
+5 better
+20 community
+15 sharing
+10 progress
+5 approach
+5 together
+5 tools
+5 communities
+2 industry
+5 others
+2 way
+2 design
+10 kowledge
+2 make
+5 scientific
+2 traditionnal
+5 contribute
+5 methods
+"""
+print("\n".join(" ".join(int(k)*[x]) for k, x in map(str.split, s.splitlines())))
+https://www.jasondavies.com/wordcloud/ -> scale: sqrt(n), font: helvetica
